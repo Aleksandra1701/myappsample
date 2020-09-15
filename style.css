@@ -1,0 +1,43 @@
+body {
+	margin:0;
+	padding:0;
+	font-family:verdana;
+	background:#eee;
+}
+
+#wrapper {
+    width:960px;
+    margin:0 auto;
+    background:#ffff99;
+}
+#header {
+    height:200px;
+    background:#009fe3;
+
+}
+
+
+#main {
+    float:left;
+    width:500px;
+    height:500px;
+    background:#91cc47;
+    padding: 20px;
+}
+
+#sidebar {
+       float:right;
+       width:400px;   
+       height:260px; 
+       background:#cc33cc;
+       padding:10px;
+
+
+}
+
+#footer{
+    clear:both;
+    height:60px;
+    background:#ff3333;
+}
+
