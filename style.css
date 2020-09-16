@@ -41,3 +41,53 @@ body {
     background:#ff3333;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header::after {
+    content:"";
+    clear:both;
+}
+
+nav {
+    float:left;
+}
+ nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+  
+ }
+
+ nav li {
+     display:inline-block;
+     margin-left: 150px;
+     padding-top: 150px;
+     position: relative;
+ }
+
+ nav a {
+     color:#05110d;
+     text-transform: uppercase;
+     font-size: 14px;
+     text-decoration:none;
+ }
+  nav a :hover {
+      color:#f14c4c
+  }
+   nav a::before { 
+       content:"";
+       display:block;
+       height: 5px;
+       width: 100%
+       
+   }
+
+   
+
+   
+   
+       
+   
