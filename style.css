@@ -6,6 +6,7 @@ body {
 }
 
 #wrapper {
+    
     width:960px;
     margin:0 auto;
     background:#ffff99;
@@ -13,12 +14,13 @@ body {
 #header {
     height:200px;
     background:#009fe3;
-
+   
 }
 
 
+
 #main {
-    float:left;
+    /*float:left;*/
     width:500px;
     height:500px;
     background:#91cc47;
@@ -26,14 +28,15 @@ body {
 }
 
 #sidebar {
-       float:right;
-       width:400px;   
-       height:260px; 
-       background:#cc33cc;
-       padding:10px;
-
-
+    /*float:right;*/
+    width: 400px;
+    height: 260px;
+    background: #f2f2f2;
+    padding: 10px;
+    font-size: 1rem;
 }
+
+
 
 #footer{
     clear:both;
@@ -44,50 +47,71 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
+ 
 }
 
-header::after {
+/*header::after {
     content:"";
     clear:both;
-}
+
+}*/
 
 nav {
     float:left;
+   
 }
  nav ul {
     margin:0;
     padding:0;
     list-style:none;
-  
+    
  }
 
  nav li {
      display:inline-block;
      margin-left: 150px;
-     padding-top: 150px;
+     padding-top: 160px;
      position: relative;
+    
  }
 
  nav a {
-     color:#05110d;
+     color:#050405fd;
      text-transform: uppercase;
      font-size: 14px;
      text-decoration:none;
  }
-  nav a :hover {
-      color:#f14c4c
+  nav a:hover {
+      color:#f14c4c;
   }
-   nav a::before { 
+  /* nav a::before { 
        content:"";
        display:block;
        height: 5px;
        width: 100%
        
-   }
+   }*/
 
    
 
-   
-   
+   #myInput {
+       justify-content: flex-start;
+       align-items: flex-end;
+       /*background-image: url("./search-58.jpg");*/
+       background-repeat: no-repeat;
+       width:30%;
+       font-size: 16px;
+       padding: 12px 20px 12px 20px;
+       border: 1px solid #b699fafd;
+      /* margin-left:650px;
+       margin-bottom: 270px;*/
+     
        
-   
+       
+   }
+       
+ .main_container {
+     display: flex;
+     justify-content: flex-start;
+    
+ }
